@@ -1,0 +1,112 @@
+## 🔩 HE600 Device Parts & Components
+
+The HE600 medical device is composed of multiple hardware and software components working together to ensure accurate data collection, processing, and monitoring.
+
+---
+
+### 🧠 1. Embedded Controller (Microcontroller Unit - MCU)
+- Core processing unit of the device
+- Handles sensor data acquisition and processing
+- Executes firmware logic and communication protocols
+- Ensures real-time responsiveness
+
+---
+
+### 🌡️ 2. Sensor Modules
+These are responsible for collecting patient health data.
+
+#### Types of Sensors:
+- Temperature Sensor → Measures body temperature
+- Pressure Sensor → Measures physical pressure or force
+- Motion Sensor → Detects movement/activity
+- (Optional) Pulse/Oxygen Sensor → Monitors vital signs
+
+---
+
+### 🔋 3. Power Supply Unit
+- Provides power to the device
+- Includes:
+  - Battery (rechargeable/non-rechargeable)
+  - Voltage regulation module
+- Ensures stable and uninterrupted operation
+
+---
+
+### 📡 4. Communication Module
+- Enables data transmission to external systems
+- Supported technologies:
+  - Wi-Fi
+  - Bluetooth Low Energy (BLE)
+  - Cellular (optional)
+
+---
+
+### 💾 5. Storage Module
+- Temporary or permanent data storage
+- Stores:
+  - Sensor readings
+  - Logs and error data
+- Used in case of network unavailability
+
+---
+
+### 🖥️ 6. User Interface (UI) Components
+- LED Indicators → Status display (Power, Error, Active)
+- Display Screen (optional) → Shows real-time data
+- Buttons/Switches → User interaction
+
+---
+
+### 🔊 7. Alert & Notification System
+- Buzzer or vibration motor
+- Triggers alerts in case of abnormal readings
+- Supports real-time patient safety
+
+---
+
+### 🔐 8. Security Module
+- Ensures secure data transmission
+- Includes:
+  - Data encryption
+  - Authentication mechanisms
+- Helps in compliance with healthcare regulations
+
+---
+
+### ☁️ 9. Cloud Integration Layer
+- Receives data from device
+- Provides:
+  - Data storage
+  - API access
+  - Integration with dashboards
+
+---
+
+### 📊 10. Monitoring Dashboard
+- Used by healthcare professionals
+- Features:
+  - Real-time data visualization
+  - Alerts and notifications
+  - Historical data analysis
+
+---
+
+## 🔄 Component Interaction Flow
+
+1. Sensors collect patient data  
+2. MCU processes and validates data  
+3. Data is stored locally (if needed)  
+4. Communication module sends data to cloud  
+5. Cloud services process and store data  
+6. Dashboard displays data to users  
+7. Alerts triggered if abnormal values detected  
+
+---
+
+## ⚠️ Reliability Considerations
+
+- Redundant data validation
+- Fault-tolerant communication
+- Low power consumption design
+- High accuracy sensors
+- Secure data handling
